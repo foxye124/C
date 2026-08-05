@@ -2,8 +2,8 @@
 
 int main()
 {
-	int number1;
-	int number2;
+	long long number1;
+	long long number2;
 
 	std::cout << "choose a number: ";
 	std::cin >> number1;
@@ -11,9 +11,9 @@ int main()
 	std::cout << "choose a second number: ";
 	std::cin >> number2;
 
-	int sum1 = number1 + number2;
-	int sum2 = number1 - number2;
-	int sum3 = number2 - number1;
+	long long sum1 = number1 + number2;
+	long long sum2 = number1 - number2;
+	long long sum3 = number2 - number1;
 
 	std::cout << "you choose " << number1 << " and " << number2 << " it's sum is: " << sum1 << "\n";
 
