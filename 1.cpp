@@ -31,3 +31,5 @@ int main()
 	}
 	return 0;
 }
+
+// used long long insted int becouse of limit to calculate
