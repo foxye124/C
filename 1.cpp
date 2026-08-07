@@ -33,3 +33,4 @@ int main()
 }
 
 // used long long insted int becouse of limit to calculate
+// simle program to add up 2 numbers and say if they are even or not
