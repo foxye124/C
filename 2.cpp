@@ -41,3 +41,4 @@ int main()
     
     }
 }
+// same as in 1.cpp but repeats infinitly and only way to stop is to type 0 as both numbers
