@@ -1,12 +1,11 @@
 #include <iostream>
 
-long long swapValues(long long a, long long b)
+long long swapValues(long long& a, long long& b, long long& c, long long& d)
 {
-    a = b;
-    b = a;
+    a = c;
+    b = d;
 
-    return (a);
-    return (b);
+    return (a, b);
 }
 
 int main()
@@ -23,7 +22,7 @@ int main()
     std::cout << "Number 2: " << value2 << "\n";
 
 
-    std::cout << "numbers after swap: " << swapValues(value, value2) << "\n";
+    std::cout << "Numbers after swap: " << swapValues(value, value2, value2, value) << "\n";
 
     return 0;
 }
