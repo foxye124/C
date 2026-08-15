@@ -1,6 +1,6 @@
 #include <iostream>
 
-long long bigger(long long a, long long b)
+int bigger(int a, int b)
 {
     if (a > b)
     {
@@ -14,8 +14,8 @@ long long bigger(long long a, long long b)
 
 int main()
 {
-    long long number1;
-    long long number2;
+    int number1;
+    int number2;
 
     std::cout << "Choose a number: ";
     std::cin >> number1;
