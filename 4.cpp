@@ -1,17 +1,17 @@
 #include <iostream>
 
-long long swapValues(long long a, long long b, long long c, long long d)
+void swapValues(int& a, int& b)
 {
-    a = c;
-    b = d;
-
-    return (a, b);
+   int hold;
+   hold = a;
+   a = b;
+   b = hold;
 }
 
 int main()
 {
-    long long value;
-    long long value2;
+    int value;
+    int value2;
     std::cout << "Choose number: ";
     std::cin >> value;
 
@@ -21,8 +21,10 @@ int main()
     std::cout << "Number 1: " << value << "\n";
     std::cout << "Number 2: " << value2 << "\n";
 
+    swapValues(value, value2);
 
-    std::cout << "Numbers after swap: " << swapValues(value, value2, value2, value) << "\n";
+    std::cout << "Numbers after swap: " << value << " " << value2 << "\n";
 
     return 0;
 }
+//program to swap values
