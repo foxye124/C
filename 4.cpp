@@ -1,6 +1,6 @@
 #include <iostream>
 
-long long swapValues(long long& a, long long& b, long long& c, long long& d)
+long long swapValues(long long a, long long b, long long c, long long d)
 {
     a = c;
     b = d;
